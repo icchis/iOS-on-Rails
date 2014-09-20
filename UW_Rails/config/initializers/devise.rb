@@ -4,7 +4,7 @@ Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
-  # config.secret_key = 'c30741a68ca57fcec0018f0e17383511c577b8d151c4af406a89f9f7a63fb6e1346697de0416f1e7acfe93f842d89f892661c068feda796aa5a130fc39f067ae'
+  # config.secret_key = 'febb43f86dfb135404bbc99f031696004ca0e44b41f9608eac0180aeedd07c6ecddc3b4b8a356a3861d36ed63f8ef80d9740d6cbaa9bd2af731e85f4de150ac1'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -20,7 +20,6 @@ Devise.setup do |config|
   # :mongoid (bson_ext recommended) by default. Other ORMs may be
   # available as additional gems.
   require 'devise/orm/active_record'
-
 
   # ==> Configuration for any authentication mechanism
   # Configure which keys are used when authenticating a user. The default is
@@ -98,7 +97,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
-  # config.pepper = '0380ec5bdddac75889909da3928ad3aae950249cce2dd82a9f1cd1a8791c4d955e54314196016e86a89db87cc544ea733d49c8ae341539900886e85e855f6c03'
+  # config.pepper = 'aefb333ec19cd0f1808726def6ca21c415bc80e6b88e89f2c9ae4fe129c5777c13312c728369515448dcd82394dbd5605a978c37b41669dd5f43b1d30d925873'
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
@@ -204,8 +203,6 @@ Devise.setup do |config|
   # "users/sessions/new". It's turned off by default because it's slower if you
   # are using only default views.
   # config.scoped_views = false
-
-  config.scoped_views = true
 
   # Configure the default scope given to Warden. By default it's the first
   # devise role declared in your routes (usually :user).
