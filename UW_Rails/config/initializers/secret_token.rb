@@ -1,0 +1,1 @@
+UWRails::Application.config.secret_key_base = '0cedb5f30dcce34f0f0b9609ac11c806545f546e8b6c5da6d732d351c80df42645a2f778ff257a6d6c5c15ab769e9473dc69374e3d56727d17c03927157b07a5'
